@@ -15,6 +15,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'AI Study Group, Pune',
   description: 'A free, hands-on AI study group that meets almost every weekend in Pune.',
+  openGraph: {
+    title: 'AI Study Group, Pune',
+    description: 'A free, hands-on AI study group that meets almost every weekend in Pune.',
+    images: ['https://ai-study-group-pune.aditya-12345678.chatgpt.site/og.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AI Study Group, Pune',
+    description: 'A free, hands-on AI study group that meets almost every weekend in Pune.',
+    images: ['https://ai-study-group-pune.aditya-12345678.chatgpt.site/og.png'],
+  },
 };
 
 export default function RootLayout({
