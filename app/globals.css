@@ -3,6 +3,7 @@
 :root {
   --ink: #20211c;
   --paper: #f4efe5;
+  --card-paper: #fffaf0;
   --tomato: #e95631;
   --sun: #f6c84a;
   --sage: #a5b99a;
@@ -37,7 +38,7 @@ h1 em { color: var(--tomato); font-weight: 400; }
 
 .hero-art { position: relative; display: grid; min-height: 690px; place-items: center; overflow: hidden; background: var(--sage); border-left: 1px solid var(--line); }
 .sun { position: absolute; top: -12%; right: -10%; width: 62%; aspect-ratio: 1; border-radius: 50%; background: var(--sun); }
-.meetup-card { position: relative; z-index: 2; width: min(68%, 390px); min-height: 500px; padding: 31px; transform: rotate(3.5deg); background: #fffaf0; box-shadow: 22px 28px 0 rgba(32, 33, 28, .13); }
+.meetup-card { position: relative; z-index: 2; width: min(68%, 390px); min-height: 500px; padding: 31px; transform: rotate(3.5deg); background: var(--card-paper); box-shadow: 22px 28px 0 rgba(32, 33, 28, .13); }
 .card-topline { display: flex; justify-content: space-between; font: 650 10px/1 var(--font-geist-mono), monospace; letter-spacing: .08em; text-transform: uppercase; }
 .card-date { margin: 46px 0 4px; color: var(--tomato); font: 700 15px/1 var(--font-geist-mono), monospace; }
 .meetup-card h2 { margin: 0; font: 400 clamp(44px, 5vw, 68px)/.91 Georgia, serif; letter-spacing: -.06em; }
