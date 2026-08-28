@@ -5,6 +5,8 @@ const stats = [
   ['27', 'median turnout'],
 ];
 
+export const dynamic = 'force-static';
+
 const sessions = [
   {
     number: '01',
