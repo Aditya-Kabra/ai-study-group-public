@@ -42,6 +42,23 @@ jobs:
           GITHUB_PAGES: 'true'
           GITHUB_REPOSITORY: ${{ github.repository }}
 
+      - name: Normalize GitHub Pages asset paths
+        shell: bash
+        run: |
+          repository_name="${GITHUB_REPOSITORY#*/}"
+          nested_assets="dist/client/$repository_name/_next"
+
+          if [[ -d "$nested_assets" ]]; then
+            mv "$nested_assets" dist/client/_next
+            rmdir "dist/client/$repository_name"
+          fi
+
+          stylesheet_href="$(grep -oE 'href="[^"]+\.css[^"]*"' dist/client/index.html | head -n 1 | cut -d '"' -f 2)"
+          stylesheet_path="${stylesheet_href#/$repository_name/}"
+          test -s "dist/client/$stylesheet_path"
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
