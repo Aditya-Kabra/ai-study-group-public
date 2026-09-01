@@ -5,6 +5,8 @@ const stats = [
   ['27', 'median turnout'],
 ];
 
+const whatsappGroupUrl = 'https://chat.whatsapp.com/JpmfVsApG5KCtUCdHtGoFd';
+
 export const dynamic = 'force-static';
 
 const sessions = [
@@ -81,7 +83,7 @@ export default function Home() {
         <nav aria-label="Main navigation">
           <a href="#sessions">What we do</a>
           <a href="#story">Our story</a>
-          <a className="nav-cta" href="#join">Join us</a>
+          <a className="nav-cta" href={whatsappGroupUrl} target="_blank" rel="noreferrer">Join us</a>
         </nav>
       </header>
 
@@ -95,7 +97,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#sessions">See what we do</a>
-            <a className="text-link" href="#join">How to join <span aria-hidden="true">↘</span></a>
+            <a className="text-link" href={whatsappGroupUrl} target="_blank" rel="noreferrer">How to join <span aria-hidden="true">↘</span></a>
           </div>
         </div>
 
