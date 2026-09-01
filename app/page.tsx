@@ -81,7 +81,7 @@ export default function Home() {
           <span>Study Group</span>
         </a>
         <nav aria-label="Main navigation">
-          <a href="#sessions">What we do</a>
+          <a href="https://aistudygroup.aipune.org/events" target="_blank" rel="noreferrer">Previous Events</a>
           <a href="https://ai-study-group.solveit.pub/" target="_blank" rel="noreferrer">Our story</a>
           <a className="nav-cta" href="https://aistudygroup.aipune.org/next" target="_blank" rel="noreferrer">Upcoming Meetup</a>
         </nav>
