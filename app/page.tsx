@@ -83,7 +83,7 @@ export default function Home() {
         <nav aria-label="Main navigation">
           <a href="#sessions">What we do</a>
           <a href="#story">Our story</a>
-          <a className="nav-cta" href={whatsappGroupUrl} target="_blank" rel="noreferrer">Join us</a>
+          <a className="nav-cta" href="https://aistudygroup.aipune.org/next" target="_blank" rel="noreferrer">Upcoming Meetup</a>
         </nav>
       </header>
 
