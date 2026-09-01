@@ -1,8 +1,8 @@
 const stats = [
+  ['16', 'months running'],
   ['52', 'meetups'],
   ['1,000+', 'members'],
-  ['~850', 'registrations'],
-  ['27', 'median turnout'],
+  ['500+', 'projects'],
 ];
 
 const whatsappGroupUrl = 'https://chat.whatsapp.com/JpmfVsApG5KCtUCdHtGoFd';
