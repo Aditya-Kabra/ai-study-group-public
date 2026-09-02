@@ -205,7 +205,7 @@ export default function Home() {
         <div className="join-sun" aria-hidden="true" />
         <p className="eyebrow">Join the next session</p>
         <h2>Bring a laptop.<br />Order a coffee.<br />Build something.</h2>
-        <p>Sessions are free. We meet almost every weekend at Aeka&apos;s Coffee in Baner, Pune, and we also run online sessions.</p>
+        <p>We meet almost every weekend at Aeka&apos;s Coffee in Baner, Pune, and we also run online sessions.</p>
         <a className="button button-light" href={whatsappGroupUrl} target="_blank" rel="noreferrer">Join us <span aria-hidden="true">↗</span></a>
       </section>
 
