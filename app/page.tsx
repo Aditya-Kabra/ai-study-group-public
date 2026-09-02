@@ -1,6 +1,6 @@
 const stats = [
   ['16', 'months running'],
-  ['52', 'meetups'],
+  ['53', 'meetups'],
   ['1,000+', 'members'],
   ['500+', 'projects'],
 ];
@@ -90,7 +90,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">Pune, India / Since May 2025</p>
-          <h1>16 months,<br /><em>52 meetups,</em><br />one cafe.</h1>
+          <h1>16 months,<br /><em>53 meetups,</em><br />one cafe.</h1>
           <p className="hero-intro">
             Bring a laptop and something you want to try. You will leave with
             something that works, or something that broke in a useful way.
@@ -106,9 +106,9 @@ export default function Home() {
           <article className="meetup-card">
             <div className="card-topline">
               <span>Saturday build session</span>
-              <span>#052</span>
+              <span>#053</span>
             </div>
-            <p className="card-date">23 AUG</p>
+            <p className="card-date">5 SEP</p>
             <h2>We build.<br />Then share.</h2>
             <div className="card-rule" />
             <p>Aeka&apos;s Coffee, Baner</p>
